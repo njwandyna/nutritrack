@@ -1,0 +1,434 @@
+/* custom.css for StuntWatch */
+
+/* =========== GENERAL STYLES =========== */
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+.section-title {
+  color: #3c8dbc;
+  margin-bottom: 20px;
+  font-weight: 700;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.box {
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.box:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* =========== SIDEBAR STYLES =========== */
+.sidebar {
+  background-color: #2c3e50;
+  padding-top: 0;
+}
+
+.sidebar-logo {
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #1a2530;
+  margin-bottom: 15px;
+}
+
+.logo-text {
+  color: white;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.sidebar-header {
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.treeview a {
+  color: #ecf0f5 !important;
+  font-weight: 400;
+}
+
+.sidebar .shiny-input-container {
+  padding: 0 15px;
+}
+
+/* Fix for analysis button */
+.action-button {
+  margin: 15px;
+  width: calc(100% - 30px) !important;
+}
+
+/* =========== CALCULATOR TAB STYLES =========== */
+.results-header {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.results-content {
+  padding: 10px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.chart-container {
+  height: 400px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.help-block {
+  margin-top: 15px;
+  color: #666;
+  font-style: italic;
+  font-size: 13px;
+}
+
+/* =========== NUTRITION TAB STYLES =========== */
+.nutrition-content {
+  padding: 15px;
+}
+
+.food-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 100%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.food-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.food-card h5 {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+.food-card p {
+  color: #666;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.food-icon {
+  color: #3c8dbc;
+}
+
+.recommendation-list {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.recommendation-list li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.recommendation-list.enhanced li {
+  padding-left: 25px;
+}
+
+.recommendation-list.enhanced li i {
+  position: absolute;
+  left: 0;
+  top: 3px;
+  color: #3c8dbc;
+}
+
+/* =========== DATA TAB STYLES =========== */
+.stat-box {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-box:hover {
+  transform: translateY(-5px);
+}
+
+.stat-box h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.stat-box p {
+  color: #666;
+  margin: 5px 0 0;
+}
+
+.stat-icon {
+  font-size: 26px;
+}
+
+.ranking-container {
+  padding: 5px;
+}
+
+.value-box {
+  margin-bottom: 15px;
+}
+
+.analysis-box {
+  padding: 15px;
+}
+
+/* =========== ABOUT TAB STYLES =========== */
+.about-box {
+  padding: 15px;
+}
+
+.about-list {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+.about-list li {
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.about-list li i {
+  position: absolute;
+  left: 0;
+  top: 3px;
+  color: #3c8dbc;
+}
+
+.about-list.tech li i {
+  color: #ff7043;
+}
+
+.team-info {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.team-photo {
+  margin-right: 20px;
+  color: #3c8dbc;
+}
+
+.team-details h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.team-details p {
+  margin-bottom: 0;
+  color: #666;
+}
+
+/* =========== RESPONSIVE ADJUSTMENTS =========== */
+@media (max-width: 768px) {
+  .stat-box {
+    height: auto;
+    padding: 15px;
+  }
+  
+  .chart-container {
+    height: 300px;
+  }
+  
+  .team-info {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .team-photo {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+/* Enhanced UI for tabs */
+.nav-tabs-custom>.nav-tabs>li.active {
+  border-top-color: #3c8dbc;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active>a {
+  font-weight: 600;
+}
+
+/* Enhanced info boxes */
+.info-box-content {
+  padding: 10px 0;
+}
+
+/* Enhanced value boxes */
+.small-box {
+  border-radius: 8px;
+}
+
+/* Table styling */
+table.table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+table.table th {
+  background-color: #f3f7fb;
+  font-weight: 600;
+  border-top: none !important;
+}
+
+table.table td, table.table th {
+  padding: 12px 15px !important;
+  border-top: 1px solid #eee;
+}
+
+/* Spinner customization */
+.spinner-container {
+  padding: 30px 0;
+}
+
+/* Food card enhanced styling */
+.food-card.enhanced {
+  background-color: white;
+  border-left: 3px solid #3c8dbc;
+  text-align: left;
+  padding: 12px;
+}
+
+.food-card.enhanced h5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.food-card.enhanced .food-icon {
+  margin-bottom: 0;
+}
+
+/* Fix sidebar menu active item */
+.sidebar-menu .active>a {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-left: 3px solid #3c8dbc !important;
+}
+
+/* Awesome radio button customization */
+.awesome-radio label {
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+/* Fix input styling */
+.form-control {
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid #ddd;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(60, 141, 188, 0.25);
+  border-color: #3c8dbc;
+}
+
+/* Action button styling */
+.action-button {
+  border-radius: 50px !important;
+  padding: 10px 20px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  font-size: 14px !important;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease !important;
+}
+
+.action-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+}
+
+/* Dashboard header customization */
+.logo {
+  background-color: #2c3e50 !important;
+  color: white !important;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.logo i {
+  margin-right: 10px;
+}
+
+/* Main header customization */
+.main-header {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.main-header .navbar {
+  background-color: #3c8dbc;
+}
+
+/* Dashboard body padding fix */
+.content-wrapper {
+  background-color: #f8f9fa;
+  padding: 15px;
+}
+
+/* Fix navbar toggle button */
+.navbar-toggle {
+  background-color: #3c8dbc;
+  color: white;
+}
+
+/* Tab content padding */
+.tab-content {
+  padding: 0;
+}
+
+/* Fix sidebar collapse */
+@media (max-width: 767px) {
+  .main-sidebar {
+    padding-top: 100px;
+  }
+}
